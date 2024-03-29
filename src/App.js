@@ -1,9 +1,14 @@
 import './App.css';
+import Header from './Header';
+import Home from './Home';
+import Wealth from './Wealth';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold">Sharangan</h1>
+      <Header/>
+      <Home/>
+      <Wealth/>
     </div>
   );
 }

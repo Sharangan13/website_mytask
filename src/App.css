@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Montserrat', sans-serif; /* Montserrat as the default font */
+  }
+}
+
+header ul li {
+  @apply px-5 py-4 font-semibold;
+
+}
+
+.mobile-nav{
+  @apply fixed top-10 left-0 w-full h-1/2  ;
+}
+
+.mobile-nav li {
+  @apply w-full h-full text-center border-b-2 ;
+}
+
+.text-primary{
+ color:  #165d7d;
+}
+
+.bg-primary{
+  background:#165d7d;
+}
+
+.bg-secoundary{
+  background:#e8eff2;
+}
