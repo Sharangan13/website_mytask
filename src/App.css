@@ -22,13 +22,31 @@ header ul li {
 }
 
 .text-primary{
- color:  #165d7d;
+ color:  #165D7D;
 }
 
+.text-phracolor{
+  color: #454545;
+  ;
+}
 .bg-primary{
-  background:#165d7d;
+  background: #165D7D;
+
 }
 
 .bg-secoundary{
   background:#e8eff2;
 }
+
+.text-btn1{
+  color: #082F44;
+
+}
+.bg-btnbg{
+  background: #165D7D1F;
+}
+
+.bg-footerbg{
+   background: #165D7D14;
+}
+

@@ -6,8 +6,11 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="flex justify-between px-16 md:2">
-      <img src={logo} alt="Logo" className="py-2 px-6" />
+    <header className="flex justify-between px-16 items-center">
+      <div >
+        <img src={logo} alt="Logo" className="py-2 px-6" />
+      </div>
+      
       <nav className="hidden md:block">
         <ul className="flex py-2 ">
           <nav className="flex py-2 px-3 text-[14px]">
@@ -34,9 +37,8 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-        
 
-      {toggleMenu && <nav className="block md:hidden mobile-nav ">
+      {toggleMenu && <nav className="block md:hidden mobile-nav bg-white pt-4">
         <ul className="flex flex-col py-2 ">
           <nav className="flex flex-col py-2 text-sm">
             <li>
@@ -66,8 +68,6 @@ export default function Header() {
       <button onClick={()=>setToggleMenu(!toggleMenu)}className="block md:hidden">
         <Bars3Icon className="text-black, h-12 px-3" />
       </button>
-
-
     </header>
   );
 }
