@@ -6,13 +6,13 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="flex justify-between px-16 items-center">
-      <div >
+    <header className="flex justify-between px-16 items-center relative">
+      <div className="z-10 min-w-[200px]">
         <img src={logo} alt="Logo" className="py-2 px-6" />
       </div>
       
       <nav className="hidden md:block">
-        <ul className="flex py-2 ">
+        <ul className="flex py-2 whitespace-nowrap">
           <nav className="flex py-2 px-3 text-[14px]">
             <li>
               <a href="/">HOME</a>
@@ -65,8 +65,8 @@ export default function Header() {
         </ul>
       </nav>}
 
-      <button onClick={()=>setToggleMenu(!toggleMenu)}className="block md:hidden">
-        <Bars3Icon className="text-black, h-12 px-3" />
+      <button onClick={()=>setToggleMenu(!toggleMenu)} className="block md:hidden z-10">
+        <Bars3Icon className="text-black h-12 px-3" />
       </button>
     </header>
   );

@@ -4,8 +4,8 @@ import img22 from "./assets/22.png";
 
 export default function Page6() {
   return (
-    <div className="flex pl-16 py-4">
-      <div className="w-2/5">
+    <div className="flex flex-col sm:flex-row pl-4 sm:pl-16 py-4">
+      <div className="sm:w-2/5">
         <div
           style={{ display: "flex", alignItems: "start" }}
           className="pb-4 font-semibold"
@@ -39,7 +39,7 @@ export default function Page6() {
         </div>
       </div>
 
-      <div className="w-2/3 flex items-center justify-center">
+      <div className="sm:w-2/3 flex items-center justify-center">
         <hr className="buttonLine border-btn w-full" />
         <div className="flex items-center w-2/3">
           <button className="px-3 py-2 rounded-full bg-btnbg text-btn1 text-[15px] font-semibold whitespace-nowrap">

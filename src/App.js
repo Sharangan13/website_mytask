@@ -14,15 +14,15 @@ import Page7 from './Page7';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <Page2/>
-      <Page3/>
-      <Page4/>
-      <Page5/>
-      <Page6/>
-      <Page7/>
-      <Footer/>
+        <Header/> 
+       <Home/> 
+      <Page2/> 
+       <Page3/>  
+       <Page4/>
+       <Page5/> 
+      <Page6/>  
+        <Page7/>   
+      <Footer/>   
     </div>
   );
 }
