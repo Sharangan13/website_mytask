@@ -1,13 +1,14 @@
 import './App.css';
-import Delivering from './Delivering';
 import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
+import Page2 from './Page2';
 import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
-import Wealth from './Wealth';
-import WealthConnect from './WealthConnect';
+import Page6 from './Page6';
+import Page7 from './Page7';
+
 
 
 function App() {
@@ -15,12 +16,12 @@ function App() {
     <div className="App">
       <Header/>
       <Home/>
-      <Wealth/>
+      <Page2/>
       <Page3/>
       <Page4/>
       <Page5/>
-      {/* <Delivering/> */}
-      <WealthConnect/>
+      <Page6/>
+      <Page7/>
       <Footer/>
     </div>
   );

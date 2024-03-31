@@ -17,10 +17,10 @@ export default function Footer() {
           <p className="font-bold text-16">BlueBay Financial Services LLC</p>
         </div>
         <div className="py-1">
-          <p className="font-semibold text-16">117, Oud Metha Offices Building<br/> UmmHurair, Dubai – UAE</p>
+          <p className="font-medium text-16">117, Oud Metha Offices Building<br/> UmmHurair, Dubai – UAE</p>
         </div>
         <div className="py-2">
-          <p className="font-semibold text-gray-500 text-16">BlueBay Financial Services LLC <br/>All Rights Reserved.</p>
+          <p className="font-medium text-gray-500 text-16">BlueBay Financial Services LLC <br/>All Rights Reserved.</p>
         </div>
       </div>
 
@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="flex justify-between px-16">
           <div className="px-4">
             <h1 className="font-semibold text-16">What We Do</h1>
-            <ul className="py-3">
+            <ul className="py-3 font-medium ">
               <li className="py-2">Investment Banking</li>
               <li className="py-2">Wealth Solutions</li>
               <li className="py-2">Ventures</li>
@@ -36,13 +36,13 @@ export default function Footer() {
           </div>
           <div className="px-4">
             <h1 className="font-semibold text-16">Company</h1>
-            <ul className="py-3">
+            <ul className="py-3 font-medium">
               <li className="py-2">Contact us</li>
             </ul>
           </div>
           <div className="px-4">
             <h1 className="font-semibold text-16">Legal</h1>
-            <ul className="py-3">
+            <ul className="py-3 font-medium">
               <li className="py-2">Terms & conditions</li>
               <li className="py-2">Privacy policy</li>
             </ul>

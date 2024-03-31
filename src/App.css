@@ -21,13 +21,27 @@ header ul li {
   @apply w-full h-full text-center border-b-2 ;
 }
 
-.text-primary{
- color:  #165D7D;
+.buttonLine{
+  @apply border-solid border-2;
 }
+
+.text-primary{
+ color:#164963;
+ 
+}
+.text-secprimary{
+  color:#0E6B90;
+
+}
+
 
 .text-phracolor{
   color: #454545;
   ;
+}
+
+.boarder-btn{
+  color:#E7E7E7
 }
 .bg-primary{
   background: #165D7D;
