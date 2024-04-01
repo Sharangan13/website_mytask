@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "./assets/logo.png";
 import { Bars3Icon, BeakerIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-scroll";
 
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -15,19 +16,19 @@ export default function Header() {
         <ul className="flex py-2 whitespace-nowrap">
           <nav className="flex py-2 px-3 text-[14px]">
             <li>
-              <a href="/">HOME</a>
+              <a href="/#">HOME</a>
             </li>
             <li>
-              <a href="/">INVESTMENT BANKING</a>
+            <a class="cursor-pointer"><Link to="page3" spy={true} smooth={true} offset={0} duration={300}>INVESTMENT BANKING</Link></a>
             </li>
             <li>
-              <a href="/">WEALTH</a>
+            <a class="cursor-pointer"><Link to="page4" spy={true} smooth={true} offset={0} duration={300}>WEALTH</Link></a>
             </li>
             <li>
-              <a href="/">VENTURES</a>
+            <a class="cursor-pointer"><Link to="page5" spy={true} smooth={true} offset={0} duration={300}>VENTURES</Link></a>
             </li>
             <li>
-              <a href="/">CONTACT</a>
+            <a class="cursor-pointer"><Link to="footer" spy={true} smooth={true} offset={0} duration={300}>CONTACT</Link></a>
             </li>
           </nav>
           <li className="flex py-2">

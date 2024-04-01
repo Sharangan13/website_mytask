@@ -8,7 +8,7 @@ export default function Page4() {
   const [Btn2, setBtn2] = useState(false);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 px-4 sm:px-16 py-8">
+    <div id="page4"  className="grid grid-cols-1 md:grid-cols-2 px-4 sm:px-16 py-8">
       <div className="flex flex-col justify-center items-center sm:items-start pr-4 sm:pr-16">
         <div className="text-center">
           <h1 className="text-[24px] sm:text-[28px] font-bold mb-4">
