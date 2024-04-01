@@ -4,20 +4,20 @@ import { Link } from "react-scroll";
 
 export default function Home() {
   return (
-    <section className="flex flex-col md:flex-row px-16 md:px-18 py-8 justify-between items-center ">
-      <div className="flex flex-col items-center md:items-start">
-        <h1 className="text-primary md:text-[44px] font-bold leading-normal sm:text-[25px] pb-8 ">
+    <section className="flex flex-col sm:flex-row justify-between items-center  px-2 py-5  sm:px-16 sm:py-8  ">
+      <div className="flex flex-col items-start">
+        <div className="text-primary text-[25px] px-1 sm:text-[44px] font-bold leading-normal pb-2 sm:pb-8 ">
           <span className="text-black font-semibold">A boutique</span> <br />
           Investment <br />
           Banking & Wealth <br />
           Solutions<span className="text-black font-semibold"> Company</span>
-        </h1>
-        <div className="flex flex-col md:flex-row pt-6 md:pt-0">
-          <button className="px-6 mt-4 md:mt-0 md:mr-4 py-3 bg-primary text-white md:text-[16px] font-semibold whitespace-nowrap">
+        </div>
+        <div className="flex flex-col sm:flex-row">
+          <button className="px-6 mx-2 mt-4 py-3 bg-primary text-white text-[12] sm:text-[16px] font-semibold whitespace-nowrap">
             CONNECT WITH US
           </button>
           <Link to="page3" spy={true} smooth={true} offset={0} duration={300}>
-            <button className="px-6 mt-4 md:mt-0 py-3 bg-secoundary text-white md:text-[16px] text-primary font-semibold whitespace-nowrap">
+            <button className="px-12  mx-2 mt-4  py-3 bg-secoundary text-white text-[12] sm:text-[16px] text-primary font-semibold whitespace-nowrap">
               WHAT WE DO
             </button>
           </Link>

@@ -6,9 +6,9 @@ export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="flex justify-between px-16 items-center relative">
-      <div className="z-10 min-w-[200px]">
-        <img src={logo} alt="Logo" className="py-2 px-6" />
+    <header className="flex justify-between items-cente px-2 sm:px-4 md:px-16 ">
+      <div className="z-10 min-w-[250px]">
+        <img src={logo} alt="Logo" className="py-2 px-6 sm:px-3 md:px-3" /> 
       </div>
       
       <nav className="hidden md:block">
@@ -69,5 +69,8 @@ export default function Header() {
         <Bars3Icon className="text-black h-12 px-3" />
       </button>
     </header>
+
+ 
+
   );
 }

@@ -8,7 +8,7 @@ export default function Page5() {
     const [Btn2, setBtn2] = useState(false);
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 px-4 sm:px-16 py-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 px-4 sm:px-16 py-8">
             <div className="flex justify-center items-center sm:items-start">
                 <img src={img5} alt="What We Do" className="w-full" />
             </div>

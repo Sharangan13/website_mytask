@@ -7,14 +7,14 @@ export default function Page3() {
     const [Btn2, setBtn2] = useState(false);
 
     return (
-        <section id='page3' className="grid grid-cols-1 sm:grid-cols-2 px-16 sm:px-16 py-8">
+        <section id='page3' className="grid grid-cols-1 md:grid-cols-2 px-2 sm:px-16 py-4 sm:py-8">
             <div className="flex flex-col justify-center items-center sm:items-start">
                 <h1 className="text-[32px] sm:text-[36px] font-bold mb-4">What We Do</h1>
                 <img src={img3} alt="What We Do" className="w-full" />
             </div>
 
-            <div className="flex flex-col justify-center items-center sm:items-start px-4 sm:px-16 mt-8 sm:mt-0">
-                <div className="text-center sm:text-start">
+            <div className="flex flex-col justify-center items-start sm:items-start px-4 sm:px-16 mt-8 sm:mt-0">
+                <div className="text-start sm:text-start">
                     <h1 className="text-[24px] sm:text-[28px] font-bold mb-4">Investment Banking</h1>
                     <p className="text-[18px] sm:text-[20px] mb-4 text-phracolor font-medium">Our firm offers professional Advisory and Financial Brokerage services, leveraging our partners' vast experience and extensive network. We excel in guiding clients through complex financial transactions, mergers, and acquisitions. With a deep industry understanding and valuable connections, we optimize outcomes, ensuring informed decisions and successful deals.</p>
                 </div>
